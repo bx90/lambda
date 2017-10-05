@@ -11,7 +11,7 @@ import java.util.function.Predicate;
  * Created by Boxiong on 7/25/17.
  */
 public class MainJava8 {
-    public static List<Person> personList;
+    private static List<Person> personList;
 
     static {
         personList = Arrays.asList(
